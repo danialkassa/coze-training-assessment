@@ -31,7 +31,6 @@ FIELDNAMES = [
     "error",
 ]
 
-
 def call_bot(text, user_id="eval-user"):
     url = f"{API_BASE}/v3/chat"
     headers = {

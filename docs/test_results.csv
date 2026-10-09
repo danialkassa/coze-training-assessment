@@ -1,92 +1,78 @@
 ﻿id,type,input,expected_keywords,hits,total_expected,passed,answer,latency,error
 1,generate,"Give me 3 medium questions on Hydraulic 
-Systems",hydraulic,1,1,True,"Great! Here are your 3 medium-difficulty assessment questions on Hydraulic Systems:
+Systems",hydraulic,1,1,True,"Here are your 3 medium-difficulty assessment questions on Hydraulic Systems:
 
-1. A hydraulic car lift has a small piston with a cross-sectional area of 0.02 m² and a large piston with an area of 3 m². If a mechanic applies a force of 150 N to the small piston, calculate the maximum mass of the vehicle that can be lifted by the large piston, and explain the physical principle that enables this lift to operate.
+1. A hydraulic lift used to raise cars in a service station has a small input piston with a cross-sectional area of 0.05 m² and a large output piston with a cross-sectional area of 1.5 m². If a mechanic applies a force of 300 N to the input piston, calculate the maximum mass of the car that can be lifted by the output piston, assuming no energy losses due to friction. Use g = 9.8 m/s² for gravitational acceleration.
 
-2. Name two core components of a closed hydraulic system, describe the function of each, and explain one advantage hydraulic systems have over pneumatic systems for high-load industrial applications.
+2. Name two key components of a closed hydraulic system and explain the specific function of each component in ensuring the system operates correctly.
 
-3. A hydraulic cylinder moves a 12,000 N load a linear distance of 0.8 m over 4 seconds. If the overall efficiency of the hydraulic system powering the cylinder is 78%, calculate the minimum input power required to operate this load, and explain one common reason why hydraulic system efficiency is always less than 100%.
+3. A hydraulic jack has an ideal mechanical advantage of 75. If the jack is only 82% efficient because of friction between its pistons and seals, how much input force is required to lift a 2700 kg truck? Use g = 9.8 m/s².
 
-Please submit your answers to each question whenever you are ready, and I will score them and provide detailed, supportive feedback to reinforce your learning.",62.73,
+You can share your answers whenever you're ready, and I will score them and provide detailed, constructive feedback to support your learning.",60.02,
 2,generate,"5 hard questions on Electrical
-Systems",electrical,0,1,False,,88.38,
-3,generate,3 easy questions on Safety,safety,1,1,True,"Great! Below are your 3 easy equipment operation safety assessment questions:
-1. What is the first thing you should do if you detect a strong natural gas smell inside your work facility?
-2. What basic safety steps should you follow when crossing a busy work zone access road as a pedestrian?
-3. What is the correct procedure for using a standard fire extinguisher on a small, contained fire at your worksite?
-
-You can submit your answers one by one or all at once when you are ready, and I will score each response with clear, constructive feedback to support your learning.",43.15,
-4,generate,2 medium questions on Sensors,sensor,1,1,True,"### Medium Difficulty Assessment Questions: Sensors
+Systems",electrical,0,1,False,,86.55,
+3,generate,3 easy questions on Safety,safety,1,1,True,"Great! Below are your 3 easy safety assessment questions. Please share your answers (you can submit them one by one or all at once) when you are ready:
+1. If you detect a strong natural gas smell inside your home, what is the first immediate action you should take?
+2. What is the most important personal safety item you are required to wear when riding a bicycle, scooter, or skateboard to reduce risk of serious head injury?
+3. If a small grease fire starts in a cooking pan on your kitchen stovetop, what is the correct safe action to put it out?",43.26,
+4,generate,2 medium questions on Sensors,sensor,1,1,True,"### Medium Difficulty Assessment Questions: Sensors (Industrial Equipment Operation Context)
 ---
-#### Question 1
-Compare active and passive sensors, provide one real-world example of each, and explain one key advantage of each type for their respective use case.
+1. A manufacturing plant needs to select a temperature sensor for a process that operates between -50°C and 400°C, with frequent mechanical vibration in the installation area. Compare the suitability of thermocouples and RTDs for this use case, justifying your answer with at least 2 key performance characteristics for each sensor type.
 
+2. Describe the operating principle of a capacitive proximity sensor, and give two distinct industrial applications where it is preferred over an inductive proximity sensor, explaining why it is the better choice for each application.
 ---
-#### Question 2
-A temperature sensor installed in a commercial food storage freezer is calibrated to measure temperatures between -30°C and 10°C. Over 10 consecutive readings of a controlled test environment held at a constant -20°C, the sensor returns the following values: -19.8°C, -19.7°C, -19.9°C, -19.8°C, -19.7°C, -19.8°C, -19.9°C, -19.8°C, -19.7°C, -19.8°C. Classify the sensor's performance in terms of accuracy and precision, justify your answer, and describe one corrective action that could be applied to improve its performance for this use case.
-
----
-You can submit your answers to either or both questions whenever you are ready, and I will score your responses and provide targeted, detailed feedback to support your learning.",50.7,
-5,generate,4 hard questions on Hydraulic Pumps,pump,0,1,False,,97.74,
+You may submit your answers whenever you are ready, and I will score them against the official rubric and provide detailed feedback for your learning.",66.91,
+5,generate,4 hard questions on Hydraulic Pumps,pump,0,1,False,,91.9,
 6,score,"Question: causes of low hydraulic pressure. Answer: relief 
 valve stuck and pump wear. Rubric: 3 causes for full 
-marks",score,1,1,True,"To accurately score this trainee's response and save the result to their official training record, could you please provide the unique trainee ID associated with this submission?
-
-Once you share the trainee ID, I will evaluate the answer against the provided rubric, share detailed feedback, and log the assessment outcome appropriately.",39.35,
+marks",score,0,1,False,"Hi there! To proceed with scoring your answer and saving the result to our training database properly, could you please provide the unique trainee ID associated with your training profile? Once you share that valid trainee ID, I will evaluate your response against the rubric, share detailed, constructive feedback, and update your assessment records promptly.",56.11,
 7,score,"Question: safety requirements. Answer: lockout, depressurize. 
-Rubric: 4 items for full marks",feedback,1,1,True,"To properly score this answer and save the result to the trainee's official record, could you please share the following required information first:
-1. The unique trainee ID of the person who submitted this answer
-2. The specific equipment operation topic this safety requirement question is associated with (e.g., heavy construction equipment operation safety, hydraulic system maintenance safety)
+Rubric: 4 items for full marks",feedback,1,1,True,"It looks like we encountered a system issue because a valid registered trainee ID is required to score your answer and save your assessment records properly. 
 
-Once you provide these details, I will evaluate the answer against the rubric, share clear feedback, and log the score to the trainee's assessment history.",28.25,
+Could you please provide your official registered trainee ID first? Once you share that, I will immediately evaluate your response to the safety requirements question and give you detailed, clear feedback to support your learning.",64.35,
 8,score,"Question: sensor calibration steps. Answer: enter mode, 
-calibrate. Rubric: 5 steps for full marks",feedback,1,1,True,"To properly score the trainee's response, log the result to their official training record, and align with our assessment framework, could you please share the following missing required details:
-1. The unique ID of the trainee who submitted this answer
-2. The official equipment operation training topic associated with this sensor calibration assessment (e.g., Heavy Construction Equipment Sensor Calibration, General Industrial Equipment Sensor Calibration)
-
-Once you provide these details, I will evaluate the answer against the rubric, share clear feedback for the trainee, and save the record to the database.",34.03,
+calibrate. Rubric: 5 steps for full marks",feedback,1,1,True,"I apologize for the temporary issue encountered while processing your answer scoring request. The system requires a valid trainee ID to locate your training records, save your assessment result properly, and provide you with accurate scoring feedback. Could you please share your registered trainee ID with me first?",55.98,
 9,score,"Question: fault codes. Answer: E01, E02, E05. Rubric: 5 codes 
-for full marks",score,1,1,True,"To accurately score this trainee's response and log the result to their official training record, please provide the following required missing details:
-1. The unique trainee ID associated with this answer submission
-2. The specific equipment operation topic these fault codes correspond to (e.g. Excavator Electrical Systems, Forklift Diagnostic Codes)
+for full marks",score,1,1,True,"It looks like we encountered a system error because the trainee ID associated with this answer submission was not found in our training records database. 
 
-Once you share these details, I will complete the scoring and provide targeted feedback for the trainee.",27.64,
+Could you please provide the valid, registered trainee ID for the trainee who submitted this answer about fault codes? Once you share the correct trainee ID, I will be able to properly score the response against the provided rubric, save the result to the database, and share detailed feedback with you.",57.3,
 10,score,"Question: hydraulic oil replacement. Answer: drain, refill. 
-Rubric: 4 steps for full marks",feedback,1,1,True,"To proceed with scoring this answer and properly recording the assessment result in the database, could you please provide the unique ID of the trainee who submitted this response? Once you share the trainee ID, I will evaluate the answer against the provided rubric and share detailed, constructive feedback.",39.12,
-11,analyze,Analyze trainee T001,weak,0,1,False,"I'm sorry, we encountered an error while attempting to run the knowledge gap analysis for trainee ID T001. The system indicates that this trainee ID does not exist in our training records database.
+Rubric: 4 steps for full marks",feedback,1,1,True,"I'm sorry, I couldn't process your answer scoring request as no valid trainee ID was found in the system. Could you please provide your official trainee ID first? Once you share it, I will immediately score your response to the hydraulic oil replacement question, provide detailed targeted feedback, and save the assessment record to your training profile correctly.",68.91,
+11,analyze,Analyze trainee T001,weak,0,1,False,"I apologize for the inconvenience, but we encountered an error when attempting to perform the knowledge gap analysis for trainee T001. The system returned a message indicating that trainee ID `T001` does not exist in our training records database.
 
-Could you please verify that the trainee ID you provided is correct, or share the accurate trainee ID so I can complete the performance analysis and study plan generation for you?",21.17,
-12,analyze,Analyze trainee T002,study,0,1,False,"I encountered an error when attempting to run the knowledge gap analysis for trainee T002: no corresponding records for this trainee ID were found in our database.
+Could you please confirm and provide the correct trainee ID? Alternatively, if this is a new trainee who has not yet completed any assessment activities, we will first need to generate and administer baseline assessment questions for them to build their training records before conducting a gap analysis.",21.22,
+12,analyze,Analyze trainee T002,study,1,1,True,"I apologize for the inconvenience. We encountered a temporary system error when attempting to run the knowledge gap analysis for trainee T002: the trainee ID record cannot be found in our training database at this time.
 
-Could you please confirm that the trainee ID T002 is correct, or verify that this trainee has completed at least one prior assessment that we can use to generate the gap analysis from?",19.96,
-13,analyze,Analyze trainee T003,recommendation,0,1,False,"I'm sorry, we encountered an error when attempting to retrieve assessment records for trainee ID T003: the provided trainee ID does not exist in our training database.
+Could you please confirm if the trainee ID ""T002"" is entered correctly? Once you provide the valid, existing trainee ID, I will immediately reinitiate the gap analysis workflow to generate the targeted performance report and study plan.",17.57,
+13,analyze,Analyze trainee T003,recommendation,1,1,True,"I apologize for the inconvenience, but we encountered an issue when attempting to retrieve records for trainee ID T003: no matching trainee profile was found in our database.
 
-Could you please double-check and confirm the correct trainee ID, so I can accurately conduct the knowledge gap analysis and generate a targeted study plan for the trainee?",16.06,
-14,analyze,Analyze trainee NEW_USER,records,1,1,True,"I encountered an issue when attempting to run the knowledge gap analysis for the trainee ID you provided: the ID `NEW_USER` does not exist in our training records database.
+Could you please verify if the provided trainee ID is correct? Once you share the accurate trainee identification number, I will immediately run the knowledge gap analysis, generate a structured performance review, and provide actionable improvement recommendations for the trainee.",15.74,
+14,analyze,Analyze trainee NEW_USER,records,1,1,True,"Apologies, we encountered an error while attempting to retrieve records for trainee ID *NEW_USER*. The system indicates that no existing training profile or assessment history exists for this trainee ID in our database.
 
-Could you please confirm the correct, registered trainee ID for the user you wish to analyze? Once you share the valid ID, I will immediately run the gap analysis, identify their weak knowledge areas in equipment operation, and generate a structured actionable study plan.",15.61,
+To proceed with the knowledge gap analysis, please first confirm if the provided trainee ID is correct. If this is a new trainee who has not completed any prior assessments under this ID, we can first set up their training profile and generate baseline assessment questions to collect initial performance data before running the gap analysis. Would you like to proceed with creating a profile and starting baseline assessments for this trainee?",18.99,
 15,generate,"3 medium questions on maintenance 
-schedule",maintenance,1,1,True,"Here are your 3 medium-difficulty assessment questions focused on equipment maintenance scheduling:
-1. A food manufacturing facility runs 12-hour shifts 6 days per week and uses a motorized belt conveyor system to move raw ingredients across the production floor. List 5 mandatory core components to include in the quarterly preventive maintenance schedule for this conveyor, and explain the purpose of each component inclusion to avoid operational downtime.
-2. A commercial HVAC system serving a 200-person office building has a bi-annual maintenance scheduled for the same day a large, all-day client conference is being hosted in the building, which will require full, consistent climate control. Explain the step-by-step decision-making process you would use to adjust the maintenance schedule without compromising equipment performance or business operations.
-3. A construction company operates a fleet of 15 heavy-duty excavators used across multiple active job sites. Name 3 key performance indicators (KPIs) you would track to evaluate if the monthly maintenance schedule for the excavator fleet is effective, and explain how each KPI demonstrates schedule performance.
+schedule",maintenance,1,1,True,"Great request! Below are your 3 medium-difficulty assessment questions focused on equipment operation maintenance scheduling:
+1. You are tasked with building a quarterly maintenance schedule for a fleet of 10 warehouse forklifts that operate 16 hours per day, 6 days per week. Name 3 core factors you would prioritize when developing this schedule, and provide a context-specific justification for each factor.
+2. A 24/7 continuous operation manufacturing plant uses a Computerized Maintenance Management System (CMMS) for maintenance scheduling, but 12% of scheduled preventive maintenance tasks are marked as missed every month. Identify 2 plausible root causes for this missed task rate, and describe one targeted scheduling adjustment to resolve each cause.
+3. A critical production press has a mean time between failures (MTBF) of 42 days and a mean time to repair (MTTR) of 1.5 days. It operates 8 hours per day, 5 days per week, with no planned production shutdowns except for 8-hour windows on alternating weekends. Calculate the optimal frequency of preventive maintenance checks needed to keep unplanned failure risk below 10%, and explain how you would slot these checks into the schedule without disrupting core production runs.
 
-You can submit your answers to any of these questions whenever you are ready, and I will score them and provide detailed, constructive feedback to support your learning.",85.12,
-16,generate,5 hard questions on fault diagnosis,fault,0,1,False,,87.87,
+You can submit your answers to any of these questions whenever you're ready, and I will score them and provide detailed, constructive feedback to support your learning.",62.38,
+16,generate,5 hard questions on fault diagnosis,fault,0,1,False,,98.5,
 17,score,"Question: preventive maintenance items. Answer: daily oil 
-check, weekly line check. Rubric: 5 items for full marks",score,0,1,False,"To process your answer scoring, save the result to your official training record, and provide you with detailed targeted feedback, could you please share your trainee ID first?
-
-Once you provide your trainee ID, I will evaluate your response against the given rubric, explain the scoring rationale clearly, and note your performance for future knowledge gap analysis.",29.64,
+check, weekly line check. Rubric: 5 items for full marks",score,1,1,True,"I noticed we encountered a system issue when attempting to process your score, as a valid registered trainee ID is required to save records to our training database. Could you please share your official trainee ID? Once you provide this, I will immediately evaluate your submitted answer against the rubric, save the result properly, and share clear, detailed feedback on your response to the preventive maintenance items question.",58.24,
 18,score,"Question: hydraulic system components. Answer: pump, valve, 
-cylinder. Rubric: 4 parts for full marks",feedback,1,1,True,"To properly score your response, save the result to your training records, and share detailed feedback, could you please provide your trainee ID first?",34.73,
-19,analyze,Analyze trainee T001,weak,0,1,False,"I apologize for the inconvenience encountered while attempting to analyze trainee T001's performance records. We ran into a system exception indicating that the record for trainee ID ""T001"" does not exist in our database.
+cylinder. Rubric: 4 parts for full marks",feedback,1,1,True,"Thank you for submitting your answer! We encountered a temporary issue processing your official score because a valid registered trainee ID is required to save your assessment record to our database. Could you please share your unique trainee ID first so we can properly log your performance?
 
-Could you please first confirm that the provided trainee ID is correct, or verify that the trainee's historical assessment records have been properly saved to the system? Once we have a valid trainee ID with existing performance data available, I can immediately run the knowledge gap analysis and generate a targeted study plan for the trainee.",16.65,
+In the meantime, here is preliminary feedback on your response:
+Great work correctly identifying 3 core hydraulic system components: pump, valve, and cylinder! Per the rubric, 4 distinct components are required for full marks, so you are only missing one key part. Common correct answers for the fourth component include the hydraulic fluid reservoir, filter, accumulator, or seals/hoses depending on the component classification scope.
+Once you share your trainee ID, we will finalize your official score and save this attempt to your training record.",80.53,
+19,analyze,Analyze trainee T001,weak,0,1,False,"I'm sorry, but we encountered a system error while attempting to perform a knowledge gap analysis for trainee T001. The specific issue is that the trainee ID ""T001"" does not exist in our training records database.
+
+Could you please verify if the trainee ID you provided is correct? Once you share a valid, existing trainee ID, I will immediately run the gap analysis to generate a detailed performance report and targeted improvement plan for the trainee.",18.96,
 20,generate,"3 easy questions on electrical 
-safety",electrical,1,1,True,"Great! Here are your 3 easy-level electrical safety assessment questions for equipment operation training:
-1. What is the first action you should take if you witness someone being shocked by electricity and they are still touching the live electrical source?
-2. Why is it unsafe to use plugged-in electrical appliances such as hair dryers, phone chargers, or radios near a full bathtub, sink, or swimming pool?
-3. Name at least one visible sign that an electrical power cord is damaged and unsafe to use, and state what you should do if you find a damaged cord.
+safety",electrical,1,1,True,"Great! Here are your 3 easy electrical safety assessment questions for equipment operation training:
+1. What is the first action you should take if you see someone being shocked by a plugged-in electrical appliance?
+2. Why is it unsafe to use electrical devices such as hair dryers or mobile phone chargers near a filled bathtub or running shower?
+3. What should you do if you notice the electrical cord on your laptop or toaster is frayed and exposing internal wires?
 
-Please submit your answers one by one or all at once when you are ready, and I will score them and provide detailed, constructive feedback to support your learning.",52.61,
+Please share your answers to each question when you are ready, and I will score them and provide detailed, constructive feedback to support your learning.",39.3,
