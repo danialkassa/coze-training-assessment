@@ -1,0 +1,28 @@
+{
+  "workflow_id": "738958910358870001",
+  "workflow_name": "generate_questions",
+  "description": "Generate assessment questions on a topic",
+  "input_params": [
+    {
+      "name": "topic",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "difficulty",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "count",
+      "type": "integer",
+      "required": false
+    }
+  ],
+  "output_params": [
+    {
+      "name": "questions",
+      "type": "array"
+    }
+  ]
+}

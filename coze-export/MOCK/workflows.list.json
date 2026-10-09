@@ -1,0 +1,19 @@
+{
+  "workflow_list": [
+    {
+      "workflow_id": "738958910358870001",
+      "name": "generate_questions",
+      "description": "Generate assessment questions on a topic"
+    },
+    {
+      "workflow_id": "738958910358870002",
+      "name": "score_answer",
+      "description": "Score a trainee answer"
+    },
+    {
+      "workflow_id": "738958910358870003",
+      "name": "analyze_gaps",
+      "description": "Analyse weak areas"
+    }
+  ]
+}

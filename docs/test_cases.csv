@@ -1,0 +1,33 @@
+id,type,input,expected_keywords
+1,generate,"Give me 3 medium questions on Hydraulic 
+Systems",hydraulic,pressure,pump
+2,generate,"5 hard questions on Electrical
+Systems",electrical,circuit,sensor
+3,generate,"3 easy questions on Safety",safety,protection,procedure
+4,generate,"2 medium questions on Sensors",sensor,calibration
+5,generate,"4 hard questions on Hydraulic Pumps",pump,pressure,flow
+6,score,"Question: causes of low hydraulic pressure. Answer: relief 
+valve stuck and pump wear. Rubric: 3 causes for full 
+marks",score,feedback
+7,score,"Question: safety requirements. Answer: lockout, depressurize. 
+Rubric: 4 items for full marks",feedback
+8,score,"Question: sensor calibration steps. Answer: enter mode, 
+calibrate. Rubric: 5 steps for full marks",feedback
+9,score,"Question: fault codes. Answer: E01, E02, E05. Rubric: 5 codes 
+for full marks",score
+10,score,"Question: hydraulic oil replacement. Answer: drain, refill. 
+Rubric: 4 steps for full marks",feedback
+11,analyze,"Analyze trainee T001",weak,plan
+12,analyze,"Analyze trainee T002",study
+13,analyze,"Analyze trainee T003",recommendation
+14,analyze,"Analyze trainee NEW_USER",records
+15,generate,"3 medium questions on maintenance 
+schedule",maintenance,schedule,check
+16,generate,"5 hard questions on fault diagnosis",fault,diagnosis
+17,score,"Question: preventive maintenance items. Answer: daily oil 
+check, weekly line check. Rubric: 5 items for full marks",score
+18,score,"Question: hydraulic system components. Answer: pump, valve, 
+cylinder. Rubric: 4 parts for full marks",feedback
+19,analyze,"Analyze trainee T001",weak
+20,generate,"3 easy questions on electrical 
+safety",electrical,safety,lockout

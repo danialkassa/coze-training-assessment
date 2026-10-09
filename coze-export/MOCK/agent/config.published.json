@@ -1,0 +1,13 @@
+{
+  "bot_id": "7342866800000001",
+  "name": "Training Assessment Agent",
+  "description": "Training and competency assessment assistant",
+  "prompt_info": {
+    "prompt": "# Role\nYou are the Training Assessment Agent..."
+  },
+  "workflow_id_list": [
+    "738958910358870001",
+    "738958910358870002",
+    "738958910358870003"
+  ]
+}

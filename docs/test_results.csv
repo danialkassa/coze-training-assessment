@@ -1,0 +1,92 @@
+﻿id,type,input,expected_keywords,hits,total_expected,passed,answer,latency,error
+1,generate,"Give me 3 medium questions on Hydraulic 
+Systems",hydraulic,1,1,True,"Great! Here are your 3 medium-difficulty assessment questions on Hydraulic Systems:
+
+1. A hydraulic car lift has a small piston with a cross-sectional area of 0.02 m² and a large piston with an area of 3 m². If a mechanic applies a force of 150 N to the small piston, calculate the maximum mass of the vehicle that can be lifted by the large piston, and explain the physical principle that enables this lift to operate.
+
+2. Name two core components of a closed hydraulic system, describe the function of each, and explain one advantage hydraulic systems have over pneumatic systems for high-load industrial applications.
+
+3. A hydraulic cylinder moves a 12,000 N load a linear distance of 0.8 m over 4 seconds. If the overall efficiency of the hydraulic system powering the cylinder is 78%, calculate the minimum input power required to operate this load, and explain one common reason why hydraulic system efficiency is always less than 100%.
+
+Please submit your answers to each question whenever you are ready, and I will score them and provide detailed, supportive feedback to reinforce your learning.",62.73,
+2,generate,"5 hard questions on Electrical
+Systems",electrical,0,1,False,,88.38,
+3,generate,3 easy questions on Safety,safety,1,1,True,"Great! Below are your 3 easy equipment operation safety assessment questions:
+1. What is the first thing you should do if you detect a strong natural gas smell inside your work facility?
+2. What basic safety steps should you follow when crossing a busy work zone access road as a pedestrian?
+3. What is the correct procedure for using a standard fire extinguisher on a small, contained fire at your worksite?
+
+You can submit your answers one by one or all at once when you are ready, and I will score each response with clear, constructive feedback to support your learning.",43.15,
+4,generate,2 medium questions on Sensors,sensor,1,1,True,"### Medium Difficulty Assessment Questions: Sensors
+---
+#### Question 1
+Compare active and passive sensors, provide one real-world example of each, and explain one key advantage of each type for their respective use case.
+
+---
+#### Question 2
+A temperature sensor installed in a commercial food storage freezer is calibrated to measure temperatures between -30°C and 10°C. Over 10 consecutive readings of a controlled test environment held at a constant -20°C, the sensor returns the following values: -19.8°C, -19.7°C, -19.9°C, -19.8°C, -19.7°C, -19.8°C, -19.9°C, -19.8°C, -19.7°C, -19.8°C. Classify the sensor's performance in terms of accuracy and precision, justify your answer, and describe one corrective action that could be applied to improve its performance for this use case.
+
+---
+You can submit your answers to either or both questions whenever you are ready, and I will score your responses and provide targeted, detailed feedback to support your learning.",50.7,
+5,generate,4 hard questions on Hydraulic Pumps,pump,0,1,False,,97.74,
+6,score,"Question: causes of low hydraulic pressure. Answer: relief 
+valve stuck and pump wear. Rubric: 3 causes for full 
+marks",score,1,1,True,"To accurately score this trainee's response and save the result to their official training record, could you please provide the unique trainee ID associated with this submission?
+
+Once you share the trainee ID, I will evaluate the answer against the provided rubric, share detailed feedback, and log the assessment outcome appropriately.",39.35,
+7,score,"Question: safety requirements. Answer: lockout, depressurize. 
+Rubric: 4 items for full marks",feedback,1,1,True,"To properly score this answer and save the result to the trainee's official record, could you please share the following required information first:
+1. The unique trainee ID of the person who submitted this answer
+2. The specific equipment operation topic this safety requirement question is associated with (e.g., heavy construction equipment operation safety, hydraulic system maintenance safety)
+
+Once you provide these details, I will evaluate the answer against the rubric, share clear feedback, and log the score to the trainee's assessment history.",28.25,
+8,score,"Question: sensor calibration steps. Answer: enter mode, 
+calibrate. Rubric: 5 steps for full marks",feedback,1,1,True,"To properly score the trainee's response, log the result to their official training record, and align with our assessment framework, could you please share the following missing required details:
+1. The unique ID of the trainee who submitted this answer
+2. The official equipment operation training topic associated with this sensor calibration assessment (e.g., Heavy Construction Equipment Sensor Calibration, General Industrial Equipment Sensor Calibration)
+
+Once you provide these details, I will evaluate the answer against the rubric, share clear feedback for the trainee, and save the record to the database.",34.03,
+9,score,"Question: fault codes. Answer: E01, E02, E05. Rubric: 5 codes 
+for full marks",score,1,1,True,"To accurately score this trainee's response and log the result to their official training record, please provide the following required missing details:
+1. The unique trainee ID associated with this answer submission
+2. The specific equipment operation topic these fault codes correspond to (e.g. Excavator Electrical Systems, Forklift Diagnostic Codes)
+
+Once you share these details, I will complete the scoring and provide targeted feedback for the trainee.",27.64,
+10,score,"Question: hydraulic oil replacement. Answer: drain, refill. 
+Rubric: 4 steps for full marks",feedback,1,1,True,"To proceed with scoring this answer and properly recording the assessment result in the database, could you please provide the unique ID of the trainee who submitted this response? Once you share the trainee ID, I will evaluate the answer against the provided rubric and share detailed, constructive feedback.",39.12,
+11,analyze,Analyze trainee T001,weak,0,1,False,"I'm sorry, we encountered an error while attempting to run the knowledge gap analysis for trainee ID T001. The system indicates that this trainee ID does not exist in our training records database.
+
+Could you please verify that the trainee ID you provided is correct, or share the accurate trainee ID so I can complete the performance analysis and study plan generation for you?",21.17,
+12,analyze,Analyze trainee T002,study,0,1,False,"I encountered an error when attempting to run the knowledge gap analysis for trainee T002: no corresponding records for this trainee ID were found in our database.
+
+Could you please confirm that the trainee ID T002 is correct, or verify that this trainee has completed at least one prior assessment that we can use to generate the gap analysis from?",19.96,
+13,analyze,Analyze trainee T003,recommendation,0,1,False,"I'm sorry, we encountered an error when attempting to retrieve assessment records for trainee ID T003: the provided trainee ID does not exist in our training database.
+
+Could you please double-check and confirm the correct trainee ID, so I can accurately conduct the knowledge gap analysis and generate a targeted study plan for the trainee?",16.06,
+14,analyze,Analyze trainee NEW_USER,records,1,1,True,"I encountered an issue when attempting to run the knowledge gap analysis for the trainee ID you provided: the ID `NEW_USER` does not exist in our training records database.
+
+Could you please confirm the correct, registered trainee ID for the user you wish to analyze? Once you share the valid ID, I will immediately run the gap analysis, identify their weak knowledge areas in equipment operation, and generate a structured actionable study plan.",15.61,
+15,generate,"3 medium questions on maintenance 
+schedule",maintenance,1,1,True,"Here are your 3 medium-difficulty assessment questions focused on equipment maintenance scheduling:
+1. A food manufacturing facility runs 12-hour shifts 6 days per week and uses a motorized belt conveyor system to move raw ingredients across the production floor. List 5 mandatory core components to include in the quarterly preventive maintenance schedule for this conveyor, and explain the purpose of each component inclusion to avoid operational downtime.
+2. A commercial HVAC system serving a 200-person office building has a bi-annual maintenance scheduled for the same day a large, all-day client conference is being hosted in the building, which will require full, consistent climate control. Explain the step-by-step decision-making process you would use to adjust the maintenance schedule without compromising equipment performance or business operations.
+3. A construction company operates a fleet of 15 heavy-duty excavators used across multiple active job sites. Name 3 key performance indicators (KPIs) you would track to evaluate if the monthly maintenance schedule for the excavator fleet is effective, and explain how each KPI demonstrates schedule performance.
+
+You can submit your answers to any of these questions whenever you are ready, and I will score them and provide detailed, constructive feedback to support your learning.",85.12,
+16,generate,5 hard questions on fault diagnosis,fault,0,1,False,,87.87,
+17,score,"Question: preventive maintenance items. Answer: daily oil 
+check, weekly line check. Rubric: 5 items for full marks",score,0,1,False,"To process your answer scoring, save the result to your official training record, and provide you with detailed targeted feedback, could you please share your trainee ID first?
+
+Once you provide your trainee ID, I will evaluate your response against the given rubric, explain the scoring rationale clearly, and note your performance for future knowledge gap analysis.",29.64,
+18,score,"Question: hydraulic system components. Answer: pump, valve, 
+cylinder. Rubric: 4 parts for full marks",feedback,1,1,True,"To properly score your response, save the result to your training records, and share detailed feedback, could you please provide your trainee ID first?",34.73,
+19,analyze,Analyze trainee T001,weak,0,1,False,"I apologize for the inconvenience encountered while attempting to analyze trainee T001's performance records. We ran into a system exception indicating that the record for trainee ID ""T001"" does not exist in our database.
+
+Could you please first confirm that the provided trainee ID is correct, or verify that the trainee's historical assessment records have been properly saved to the system? Once we have a valid trainee ID with existing performance data available, I can immediately run the knowledge gap analysis and generate a targeted study plan for the trainee.",16.65,
+20,generate,"3 easy questions on electrical 
+safety",electrical,1,1,True,"Great! Here are your 3 easy-level electrical safety assessment questions for equipment operation training:
+1. What is the first action you should take if you witness someone being shocked by electricity and they are still touching the live electrical source?
+2. Why is it unsafe to use plugged-in electrical appliances such as hair dryers, phone chargers, or radios near a full bathtub, sink, or swimming pool?
+3. Name at least one visible sign that an electrical power cord is damaged and unsafe to use, and state what you should do if you find a damaged cord.
+
+Please submit your answers one by one or all at once when you are ready, and I will score them and provide detailed, constructive feedback to support your learning.",52.61,
